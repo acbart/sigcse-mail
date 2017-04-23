@@ -1,0 +1,17 @@
+analyzed_attachments/
+attachments/
+cleaned_attachments/
+emails/
+old_attachments/
+parsed_emails/
+periodicals/
+wordclouds/
+attachment_type_freqs.json
+credentials.json
+emails.csv
+email_classification.csv
+indexes.html
+indexes.txt
+process-2.py
+process.py
+sigcseArchive.py
