@@ -1,3 +1,5 @@
+email_data.sqlite
+
 analyzed_attachments/
 attachments/
 cleaned_attachments/
@@ -5,6 +7,7 @@ emails/
 graphs/
 images/
 monthly_bodies/
+monthly_subjects/
 old_attachments/
 parsed_emails/
 periodicals/
@@ -24,3 +27,8 @@ predicting_posts.csv
 predicting_posts_qual.csv
 threads.json
 wpd_plot_data.json
+
+__pycache__
+
+SIGCSE-mail-2.zip
+SIGCSE-mail.zip
