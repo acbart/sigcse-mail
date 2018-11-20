@@ -20,9 +20,6 @@ emails_equivalent.csv
 email_classification.csv
 indexes.html
 indexes.txt
-process-2.py
-process.py
-sigcseArchive.py
 predicting_posts.csv
 predicting_posts_qual.csv
 threads.json
