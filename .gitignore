@@ -1,7 +1,11 @@
 email_data.sqlite
 
 backups/
-
+data/all_emails.zip
+data/cleaned_attachments_v1/
+data/sigcse-emails-v1.db
+data/sigcse-emails.db
+data/top_posters.csv
 data/analyzed_attachments/
 data/attachments/
 data/cleaned_attachments/
@@ -27,6 +31,9 @@ data/indexes.txt
 data/indexes.html
 
 config/credentials.json
+config/listserv.json
 
 
 __pycache__
+
+.ipynb_checkpoints/

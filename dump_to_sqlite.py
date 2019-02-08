@@ -71,8 +71,8 @@ def strip_punctuation(s):
 #%%
 # Email Metadata
 collected = []
-for email_metadata in tqdm(os.listdir('parsed_emails/')):
-    with open('parsed_emails/'+email_metadata) as email_metadata_file:
+for email_metadata in tqdm(os.listdir('data/parsed_emails/')):
+    with open('data/parsed_emails/'+email_metadata) as email_metadata_file:
         row = json.load(email_metadata_file)
         row['id'] = email_metadata[:-5]
         collected.append(row)
@@ -80,12 +80,12 @@ emails = {c['id']: c for c in collected}
 #%%
 # Attachments
 attachments = {}
-for attachment in tqdm(os.listdir('cleaned_attachments/')):
-    with codecs.open('cleaned_attachments/'+attachment, encoding='utf-8') as attachment_data:
+for attachment in tqdm(os.listdir('data/cleaned_attachments/')):
+    with codecs.open('data/cleaned_attachments/'+attachment, encoding='utf-8') as attachment_data:
         attachments[attachment] = attachment_data.read()
         
 #%%
-with open('threads.json') as inp:
+with open('data/threads.json') as inp:
     old_threads = json.load(inp)
 threads_list = []
 for k, v in old_threads.items():
@@ -102,18 +102,18 @@ threads_list.sort()
 
 #%% Classification
 import pandas as pd
-types = pd.read_csv('labeled_emails.csv', 
+types = pd.read_csv('data/labeled_emails.csv', 
                     header=None, names=['ID', 'Type'],
                     index_col='ID').to_dict()['Type']
 
 #%% Produce 2 Tables
 
-conn = sqlite3.connect('sigcse-emails.db')
+conn = sqlite3.connect('data/sigcse-emails.db')
 c = conn.cursor()
 
 # Thread Table
-# ID, Year, Month, Week, Index
-c.execute('''CREATE TABLE IF NOT EXISTS thread (id, year, month, week)''')
+# ID, Year, Month, Week, Ith
+c.execute('''CREATE TABLE IF NOT EXISTS thread (id, year, month, week, ith)''')
 
 # Thread ID, Date, FROM, ID, Subject, Body
 c.execute('''CREATE TABLE IF NOT EXISTS email 
@@ -121,9 +121,9 @@ c.execute('''CREATE TABLE IF NOT EXISTS email
 
 # Insert contents
 for d, y, m, w, i, l, a in threads_list:
-    c.execute("INSERT INTO thread (id, year, month, week) "+
-              "VALUES ('{id}', {year}, {month}, {week})".format(
-                      id=d, year=y, month=m, week=i
+    c.execute("INSERT INTO thread (id, year, month, week, ith) "+
+              "VALUES ('{id}', {year}, {month}, {week}, {ith})".format(
+                      id=d, year=y, month=m, week=w, ith=i
                       ))
     for email in a:
         if email not in emails:

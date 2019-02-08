@@ -135,10 +135,10 @@ def clean_body(text):
             break
         if line.startswith('________________________________'):
             break
-        if line.startswith('On ') and line.endswith(' wrote:'):
-            break
+        if line.startswith('On ') and line.endswith('wrote:'):
+            continue
         if line.startswith('From: '):
-            break
+            continue
         if line.startswith('Sent from my iPhone'):
             break
         if line.startswith('Sent from my BlackBerry'):
@@ -187,10 +187,10 @@ h2t_handler = html2text.HTML2Text()
 h2t_handler.ignore_links = True
 h2t_handler.ignore_images = True
 def clean_attachments():
-    attachments = os.listdir('attachments/')
+    attachments = os.listdir('data/attachments/')
     #random.shuffle(attachments)
     for attachment in tqdm(attachments):
-        path = os.path.join('attachments', attachment)
+        path = os.path.join('data/attachments', attachment)
         with open(path, 'rb') as inp:
             content = unidecode(inp.read().decode('latin1'))
         #if is_binary_string(content):
@@ -212,7 +212,7 @@ def clean_attachments():
             continue
         #body = soup.find('body')
         #body = clean_body(body)
-        cleaned_path = os.path.join('cleaned_attachments', attachment)
+        cleaned_path = os.path.join('data/cleaned_attachments', attachment)
         with codecs.open(cleaned_path , 'w', 'utf-8') as out:
             out.write(body)
             #%%
@@ -282,9 +282,9 @@ def test_extensions():
 #retrieve_emails()
 #%%
 #build_index()
-retrieve_periodicals()
+#retrieve_periodicals()
 #retrieve_emails()
 #pprint(dict(filetypes.items()))
 #%%
-#clean_attachments()
+clean_attachments()
 #process_threads()
