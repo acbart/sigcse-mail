@@ -16,6 +16,8 @@ data/old_attachments/
 data/parsed_emails/
 data/periodicals/
 results/
+!results/long_thread_analysis.html
+!results/LongThreadAnalysis.xlsx
 results/images/
 results/images/wordclouds/
 
