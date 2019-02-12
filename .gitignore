@@ -15,7 +15,9 @@ data/monthly_subjects/
 data/old_attachments/
 data/parsed_emails/
 data/periodicals/
-results/
+!results/
+results/*
+results/**
 !results/long_thread_analysis.html
 !results/LongThreadAnalysis.xlsx
 results/images/

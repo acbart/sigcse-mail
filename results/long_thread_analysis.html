@@ -1,0 +1,601 @@
+
+<html>
+<head>
+<style>
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+</style>
+</head>
+<body>
+
+<div>
+    <strong>More on CSAB</strong><br>
+    <span>1996/October</span><br>
+    A long winding thread about accredditation in CS, whether it was worth it and such. Actually starts off incomplete, not sure what the original start was. Discussion about the definition of what a "prep" is. CSAB provides helpful guidelines for teaching track faculty. Discussion about appropriate teaching loads (seems to settle on 12 credit hours). Descriptions of ways that departments can allot load to a faculty. Discussion about how we as a field are inflexible about removing content from our "core" - which we also can't agree on. Review of some research on what should be in a typical undergrad program - discussion about the tradeoffs of liberal arts courses and engineering focused ones. There seems to be two parallel discussions here. Arguments for and against whether the schools really should have both teaching and research. Some defense of CSAB as not actually requiring too much change. A lot of back and forth about what exactly should be in these programs, how presciprtive they should be. A lot of discussion at the very end about where money should come from for teaching, and what we need to value in CS (considering the cost of college).
+    <ul>
+    
+        <li><pre>The bottom line is that CSAB specifies a particular *approach* to education -- *not a level of quality*.    It should not be toted as the criteria by which we should all be evaluated.</pre></li>
+    
+        <li><pre>I think that the complaint here, which was also our impression when we looked at accredidation, is that the process HEAVILY favors engineering schools and is significanly weighted against liberal arts schools.</pre></li>
+    
+        <li><pre><small>41058_ind9610C.txt: </small>Concerning the number of requirements in professional CS programs:  I do sometimes think they are excessive and too inflexible.  However, I don't think they necessarily have to be.  In CS we are very good about finding important new content to add to the curriculum, but not very good about removing old content to make space for it.  Many professional CS programs are already effectively 4.5 year programs.  As a field, we need to give more serious attention to removing content--finding a small core, with quite a bit of flexibility around that.  ...  But, when we get down to the nitty gritty details, it is difficult to get any two computer scientists to agree on what should be in the core and what should be outside.  There really is not much of a consensus on what our field is all about.</pre></li>
+    
+        <li><pre><small>30575_ind9610C.txt: </small>Bingo. CS is one of those disciplines that gets _really_ hot for a while, then may taper off. It's a really cyclic field.</pre></li>
+    
+        <li><pre><small>68520_ind9610C.txt: </small>In an ideal world, I think the BA in CS is a fine idea.  In the real world, a lot of practical things get in the way.</pre></li>
+    
+        <li><pre><small>65548_ind9610C.txt: </small>I do not think that the CSAB criteria are overly slanted toward engineering programs, becuase we are not much differnet now than we were in 1992.</pre></li>
+    
+        <li><pre><small>109288_ind9610C.txt: </small>Agreed. The CSAB criteria are obviously walking a fine line here - it's OK to have 3 courses and 3 preps, but if you have 4 courses, you can have only 2 preps.</pre></li>
+    
+        <li><pre><small>Quick Summary:: </small>Arguments for and against accredition, and discussion about the integration of liberal arts in CS degrees.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>STL in CS2</strong><br>
+    <span>1997/December</span><br>
+    Suggestion to change CS2 to focus on USING data structures (via STL) instead of implementing them. Concern that they would have too much complication because STL is expert level. Discussion of whether OO or "generic programming" should influence the Data Structures course. Arguments against teaching USE because that changes from library over time, but data structures are eternal. Push back on that - same arguments were made about compilers many years ago! Argument that CS students sometimes get too much into tools and are less proficient than Engineering majors at "Solving problems". Complaint about Java not having generics making it difficult to use its STL. Discussion of the comparative values of: showing kids how they can avoid code redundancy (templates) vs. the value of writing things out (separate implementations for different subtypes in data structures). Some suggestions on HOW to teach pointers and at the CS2 level. The thread grew into a discussion about how we try to put too much into the first year, instead of focusing on making it a fun and enriching experience. Some discussion about the use of games in CS1.  More arguments about how students need to know how calculators do their formula, not just how to use the calculators. Discussion about whether 4Gl or 5GL languages will ever become viable and replace what we teach (doubt is expressed). A tangent was raised about the lack of inheritance in AP C++ and how the transition to C++ in the AP program is a bad idea. A point is raised that many students graduate feeling they "never learned what was going on inside the computer" and they had to use "weird academic languages".  Someone suggests there is a trend back to "single language curricula". Discussion of the need for students to understand novel hype vs. things that will endure. Several arguments are raised about the value of using more than one language over a CS curriculum (pitches are made for Ada, Modula, Scheme, Java, C++).
+    <ul>
+    
+        <li><pre>It seems that among the many other changes going on in CS2, most commonly called Data Structures although that is changing too, there is a steady de-emphasis on the implementation of the various standard data structures.  Yes, students need to know that a stack can be implemented with either an array or a linked list, but they don't have to fight through all the details of both implementations for all the data structures we include.    I'm toying with taking this to its logical conclusion: don't study the implementations at all, or maybe no more than enough to make some basic points--then switch to the Standard Template Library (STL).</pre></li>
+    
+        <li><pre>I believe you would trade having them learn fundamental knowledge for having them learn the arcane details of using STL. By the time the students are 10 years into their careers, STL will have been replaced, at least once, by something else.  Meanwhile, the fundamentals of how to implement a stack and a queue and such will still be the same.</pre></li>
+    
+        <li><pre>I seem to hear an echo here of the argument a couple of decades ago against switching from assembler to a higher level language.  Change a few words, and it reads pretty much the same.  ("No way!  We _have_ to start with assembler, or they won't know what _really_ goes on in the computer.")</pre></li>
+    
+        <li><pre>Computer science - ESPECIALLY in the first year - should NOT be about learning how to knock programs together using the currently fashionable products. Students begin to believe that CS is nothing but programming, and that programming is nothing but wrapping a bit of code around someone's product.</pre></li>
+    
+        <li><pre>I conclude that it is possible to teach both the nuts and bolts and the more abstract STL level.  I do not know whether they will have an easier time when CS330 asks them to implement parts of the STL yet.</pre></li>
+    
+        <li><pre><small>12326_ind9712C.txt: </small>At the risk of being too avante garde, may I suggest the use of a language like Java for CSII.  Java has a number of appealing features, and one big drawback.  Best of all, it is free!</pre></li>
+    
+        <li><pre><small>7373_ind9712C.txt: </small>Understanding how different types of data (graphics, sound, video) is represented in a computer is fundamentals - it is all about representing data.  As the time goes on, fundamentals change - we still talk about representation of data just as we did with integers and reals and characters - but we have more examples and options.</pre></li>
+    
+        <li><pre><small>161247_ind9712C.txt: </small>Once again the CS2 debate ignores key issues and wastes time and energy to determine on which tired bones of a temporarily fashionable programming language or feature to hang the future of our profession ...</pre></li>
+    
+        <li><pre><small>Quick Summary:: </small>The students need to learn both the use of standard DS and the analysis, design & coding of standard DS.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Story on "Computer" education in today's Chronicle Online</strong><br>
+    <span>1999/April</span><br>
+    Sparked from an article on the subject, the question is raised whether HS can give you sufficient skills to land a coding job. Anecdotal argument against based on a focus group from students within a program saying they needed the college training. Several more arguments and dismissals of the idea. Comparison drawn to lottery tickets - just cause someone graduated and got a great job without a college degree, doesn't mean most people will. More arguments against it. Someone ties it to the job market being tight right now, saying such articles float around during those times. A few anecdotes of meeting hiring managers looking for "hackers" and not "software engineers" - observation that it leads to bad code. One writer makes a long argument AGAINST the value of a college education, citing factors like boring Liberal Arts classes and the need to jump through hoops in schools. Push back against that argument with anecdotal evidence of "I've met people who have benefitted from college". One comment that we don't teach problem solving, students just learn problem solving from our teaching. Argument that the WAY we teach may be a bigger issue in colleges than WHAT we teach. More strong push back against the long argument, breaking down each point in turn. Anecdotal experience of someone who wished they had gone to college instead of getting a certification.
+    <ul>
+    
+        <li><pre><small>360_ind9904C.txt: </small>Some self-described computer geeks are wondering if they really need a college education. These days, they say, high-school students can teach themselves enough coding skills to land lucrative jobs at high-tech companies that are scrambling to fill openings.</pre></li>
+    
+        <li><pre><small>30594_ind9904C.txt: </small>The story about technicians discussing whether they need a degree or not sounds like a repeat of previous debates 10, 20, 30 years ago.</pre></li>
+    
+        <li><pre><small>1502_ind9904C.txt: </small>If this phenomenon is true, and I'm not convinced it is if it comes from geekdom, it will last about as long as it takes the managers of high-tech companies to discover that their new employees don't have enough sense to pour a certain substance out of a boot with the directions written clearly on the heel.</pre></li>
+    
+        <li><pre><small>22886_ind9904C.txt: </small>I think we have seen this phenomenon more than once in the past ... in particular whenever the job market gets tight (and I hear a rumor that it is right now;-). Employers optimistically turn to cheaper 'talent'. And let's face it: something like $10K less than the going rate for cs grads still looks like a heck of a lot of money to a new HS grad.</pre></li>
+    
+        <li><pre><small>55478_ind9904C.txt: </small>We have heard the mystical words of "learning how to learn".  They come from the mouths of the members of our Industrial Advisory Council -- frequently.</pre></li>
+    
+        <li><pre><small>40390_ind9904C.txt: </small>The famous "learning how to learn" argument.  This belongs to the same category as the "Calculus teaches you how to think" myth.</pre></li>
+    
+        <li><pre><small>74060_ind9904C.txt: </small>As an advocate of Active and Group Learning, my reaction to this is that it doesn't invalidate the value of a college education, but it might invalidate the way that college courses are taught.</pre></li>
+    
+        <li><pre><small>Quick Summary:: </small>People should go to college for CS</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Grad School</strong><br>
+    <span>1999/October</span><br>
+    Discussion about whether someone should get a CS Ed degree or a CS degree and do Ed. Some back and forth about whether it affects ability to teach courses - observation that it matters more what departments feel is true when hiring. Defense of Ed degrees and their technical rigor. Railing against perception that teaching should be an afterthought by those who cannot do other things. Some accusations of people being "elitist", a little rough on both sides. Some discussion about whether SIGCSE should become focused more exclusively on CS1/2 vs. upper division courses.  Discussion of what a CS Ed PhD should look like. SUNY prof offers suggestions on what a CS Ed researcher would need to do to be at their school. Hope that CS Ed would become an established research area within CS. Anecodtal description of an experience with an unqualified CS Ed colleague. Some discussion about whether there is a conspiracy or lobby for "purer" subjects over "less pure" ones (math/physics vs. CS).
+    <ul>
+    
+        <li><pre><small>19411_ind9910B.txt: </small>I too have a CSE degree, but never found it to be a hindrance.  The flagship schools are too snooty to give it a thought, but there are many more "teaching" schools that welcome such a degree because it means that you have had some teaching training, something that is sorely lacking in a great many PhD grads.</pre></li>
+    
+        <li><pre><small>49218_ind9910B.txt: </small>A SIGCSE conference regular and all-around good guy told several folks a couple of years ago that he thought SIGCSE was evolving toward a CS1/CS2 focus, with many of the specialty-course folks finding room within the specialty conferences and organizations to discuss teaching of their courses.</pre></li>
+    
+        <li><pre><small>54710_ind9910B.txt: </small>Besides, the CS1/CS2 discussions really are where the overarching concerns of CS education seem to lie.  It is natural for many of us to want to be there, even if it's not part of our course loads!</pre></li>
+    
+        <li><pre><small>33968_ind9910B.txt: </small>The field of CS is evolving too rapidly, IMO, for a mainstream CS Education specialist to be useful.  There will always be the suspicion that the field changed between the person's graduation, and the moment s/he arrived in the classroom!</pre></li>
+    
+        <li><pre><small>45175_ind9910B.txt: </small>The "computer science education" specialty also means (or ought to mean!) that you've done your Ph.D. research in CS education. This means you've learned how to do an empirical study of, say, whether approach X or approach Y is more effective in teaching an intro course.</pre></li>
+    
+        <li><pre><small>80788_ind9910B.txt: </small>Recognizing it as a legitimate Ph.D. specialty (_within CS_!) is the first step - we'll get a flow of new Ph.D.s who've done it. The next step, of course, is for faculty hiring committees to recognize it as a legitimate research interest, when they balance off all the interests they want to see in their faculty.</pre></li>
+    
+        <li><pre><small>83912_ind9910B.txt: </small>In my opinion, the discussion on this topic seems to have gotten to the point of "we're not elitist" vs "yes you are."  It's almost starting to sound like there is this great conspiracy to keep Ed.D. in CS out of CS Departments, and I hardly think that is the case.</pre></li>
+    
+        <li><pre><small>56354_ind9910B.txt: </small>The case I made addresses three common misconceptions:  1. CS Education Research is about teaching, not research 2. If CSEd Research *is* research, it's not CS 3. CSEd Research is the preserve of "one or two cranks</pre></li>
+    
+        <li><pre><small>117869_ind9910B.txt: </small>There are really two separate issues here. (1) whether an Ed.D. in CS education is likely to get hired by a CS department. This thread has shown that the answer seems to be "sometimes, but not very often."  (2) whether CSE research is considered legitimate _CS_ research, for a _CS_ Ph.D. student or junior faculty person. This thread has shown that the answer seems to be "sometimes, but not very often.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Simplified Java I/O for CS1</strong><br>
+    <span>2000/March</span><br>
+    Long discussion about developing a teaching library for Java I/O. Some fierce attacks between folks! A lot of focus on "textbook authors" - one of the summarizers points to them as the fulcrum for effecting change "this time". Arguments about separation of UI elements and functional concerns. Arguments for and against using Java for CS1. It does seem like people wanted a good library for this; java.util wouldn't show up until 1.5 landed in 2004
+    <ul>
+    
+        <li><pre><small>75019_ind0003A.txt: </small>We teach our students nothing but lambda calculus and set theory for two years.  We beat them if they try to go near an actual machine. They must grind their own grain to make bread, and weave their own hair into shirts.  I can safely say that our students know the "core" topics so well they are entirely useless for anything but grad school.</pre></li>
+    
+        <li><pre><small>https://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind0003A&L=SIGCSE-MEMBERS&P=29421&X=BFF35871B8482EF58D&Y=acbart%40udel.edu: </small>Java I/O is tough on beginners. Many alternative technologies (using GUIs, Ada, Pascal, just use native Java I/O) were advocated. Ignoring the many debates possible there, simple Java I/O for beginners is useful for at least some of us. The Straw Man was of plausible quality to a few posters (http://www.afu.com/EasyIn.txt ). Suggestions included: 1) make sure the transition to later Java native I/O is smooth 2) provide a facility to open files instead of System.in 3) exceptions are going to be a tricky area, possibly with no satisfying solution</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>ACM Java Task Force announcement</strong><br>
+    <span>2004/March</span><br>
+    Because so many schools started using Java, the ACM Education Board put together a task force to review Java from the intro perspective and develop a stable collection of pedagogical resources. The task force put together a number of challenges and solutions, and then asked the listserv for more ideas. Right out of the bat, arguments started about whether you needed any fancy APIs in CS1, and whether we should do functional or logic in CS1. Some light push back against this. Some arguments for and against Java, different language approaches, the need for more tools to help teachers. Concerns that the task force may be lead to compulsory classroom approaches. Someone brought up How to Design Programs, and the need to focus on "design" instead of "language". Someone pushes back against "CS as math" and suggests focusing less on theory and more on designing real world systems. A later fork of the thread started with a discussion about how the real issue is faculty struggling to adopt to new paradigms of UI and languages. Tangent about student's struggle in CS. Some emphasis that the task force should focus on *pedagogical problems* not technical ones. Arguments about what "fundamental" topics in CS even are: turing machines, OO programming, agorithmic reasoning, arrays. Reference to CC2001, pointing to how they don't try and take a firm stance on CS1 because they are multiple promising approaches. Evolves into more of a discussion of pedagogical problems, techniques, thoughts.
+    <ul>
+    
+        <li><pre><small>https://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=SIGCSE-MEMBERS;b5305313.0403C: </small>It all comes down to a question of "legitimacy" (as I was going to say in my address at the conference): if you examine the curricula of other scientific and engineering disciplines, you will find that their educators are not embarrassed to spend at least two years teaching theory and basic concepts, and only in the third year are students introduced to "useful" topics and artifacts. Neither students nor parents nor employers see this approach as illegitimate. But, when I claim that tenth-grade students should be taught Pascal, I take a lot of flak, because Pascal is not "modern" or "useful".</pre></li>
+    
+        <li><pre><small>35936_ind0403D.txt: </small>Joe and others are making the point that if you are going to teach OO, whatever the level, then teach OO.  If you choose to use Java as the vehicle of instruction you should not treat if statements, primitives, arrays, etc as fundamental to OO because they're not.  If you want to teach procedural programming then do that.  If you want to teach OO programming then do that.  Don't try to do both in one course.</pre></li>
+    
+        <li><pre><small>322206_ind0403D.txt: </small>As Dan points out, it's not just the Java programming requires a paradigm shift over Pascal, C, and C++.  The real thing that is causing such pain is that it seems to require a paradigm shift in techniques of teaching.  That is, it's not enough that instructors become expert Java programmers.  They seem to also need to learn a new way of teaching introductory courses -- i.e., a paradigm shift seems to be needed in pedagogy.</pre></li>
+    
+        <li><pre><small>https://dl.acm.org/citation.cfm?id=1047348: </small>Follow up publication!</pre></li>
+    
+        <li><pre><small>https://www-cs.stanford.edu/people/eroberts/jtf/rationale/Rationale.pdf: </small>Final Report</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Java vs. C++</strong><br>
+    <span>2004/November</span><br>
+    A long debate about the merits of Java and C++ for CS1. Early on, a discussion was had about how there is no "right choice", and languages change over time. Someone brings up the "vocational" concerns and how they need to teach certain languages to get people jobs. There's some more arguments in favor of Scheme, and then someone against it. Someone complains that students aren't learning about testing. A lot of agreement about the need for multiple languages in early CS.
+    <ul>
+    
+        <li><pre><small>https://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind0411B&L=SIGCSE-MEMBERS&X=95AFE821971061CCFB&Y=acbart%40udel.edu&P=8290: </small>My department  was (still is) in a bitter debate on which language, C++ or Java,  should be taught in CS1 and CS2.  We arrived at a compromise, which in fact is the worst outcome, in my opinion,  i.e., Java for CS1 and C++ for CS2.  (Then, we are arguing what would the one for Data Structures?)</pre></li>
+    
+        <li><pre><small>83077_ind0411B.txt: </small>Well said.  And even if we could all agree that there is some wonderful "best language" right now, it won't be the "best language" 5 years from now.  We need to educate students to accept and embrace change, not let them fall into some petrified mind-set that what they first learned is the only way to go.</pre></li>
+    
+        <li><pre><small>169836_ind0411B.txt: </small>As good as it is for learning principles, Scheme is a language that has been used in a vanishingly small fraction of "real world" software development projects.  In better times, employers cared far less about employees being able to hit the ground running;  many, if not most, hired lots of CS grads who had been exposed to ANY "real" programming language.</pre></li>
+    
+        <li><pre><small>201771_ind0411B.txt: </small>Of course there is always my favorite response to students who complain that "no one uses language X" when we use language X in first year teaching.  No one hires first year students for software engineering jobs either, they hire graduates who will have learnt a variety of languages before we let them out of here.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Decline in CS Enrollment</strong><br>
+    <span>2005/January</span><br>
+    Long thread about the declining enrollment problem in CS at the time.  A lot of fear about out-sourcing, references to the dot-com bust. Some argument about the specific cause, whether there is ample evidence for the "why". Discussion about whether students are cognizant of such things (agreement that they are), and whether we are better off without those types of students. Complaints about students not being sufficiently excited by basic programs like the good old days. Some superstitition that the decline in enrollment is linked to the increase in Java. Starting to see more people tout Python here, but Scheme is as popular as ever. Someone in a forked thread suggested that 9/11 and the War on Terror might have had an impact on enrollment too - though some offered data that argued against this.
+    <ul>
+    
+        <li><pre><small>192065_ind0501C.txt: </small>We are well off without the students who majored in CS for the wrong, strictly pecuniary, reasons, but virtually all CS students who are in the field out of sincere interest are also very concerned about employment upon graduation.</pre></li>
+    
+        <li><pre><small>235171_ind0501C.txt: </small>I recall how parents of prospective students would turn up their noses when I mentioned that we started students off in Turbo Pascal. They sniffed, "but that's a 'teaching' language" (as if their kids did not need to be taught). What they wanted was an industrial strength language (like C++) for job training.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Elimination of Computer Science Courses from the High School's List of NCAA-Approved Core Courses</strong><br>
+    <span>2005/January</span><br>
+    Apparently, the NCAA decided to no longer count CS as a class (potentially because of the rise of fake CS-like classes that focused on basic applications and keyboarding). This led, of course, to a discussion about WHAT IS COMPUTER SCIENCE (apparently picking up on conversations from the previous week). Descriptions of how people confuse CS with other computer-related fields. Some nuance is established about "coding" and "programming" - the term "blue-collar programmer" is used to highlight this lesser category.  Still can't agree on the definition of CS!
+    <ul>
+    
+        <li><pre><small>126695_ind0501D.txt: </small>In another class (for graduates/senior, I assume they already have a fair idea about CS and can take some humor), after I finally reduce an NP-problem to SAT or so, if a student ask: "Ok, the proof is sound; but what is that for?";  I usually don't bother to repeat those typical words for the textbook (they can and should read by themselves), I simply say: "Oh, that makes you feel smarter." If the conversation goes on,  I will ask: what is knowing the structure of the black-hole for?  Very often, due to the nature of our CS students, some will argue that knowing the structure of the black-hole indeed is useless.  Very well, there is a one-million-dollar-bounty for hunting a solution to NP ?= P, and none of the rest  6 one-million-dollar problems have an immediate application to your cellphone or PDA or so.</pre></li>
+    
+        <li><pre><small>123649_ind0501D.txt: </small>But to some extent they are "inside baseball". It would still be nice if we could make some real progress, at least 50 years into this field, if we could develop a definition of ourselves for those outside our profession, so as to articulate clearly and concisely what we do, *in terms that are meaningful to lay people*.</pre></li>
+    
+        <li><pre><small>https://dl.acm.org/citation.cfm?id=1083469: </small>Cool paper trying to qualitative analyze what is CS</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Differential Equations</strong><br>
+    <span>2005/September</span><br>
+    NCA&T had a DiffEq requirement for the CS majors, and a professor raised the question "Can anyone give an example Computer Science question that requires
+differential equations?" suggesting that DiffEq isn't relevant to CS. Someone suggested graduate research topics that might involve them, but suggested it was useful as a domain area for students. Some discussion about its critical role in "Computational Science". Evolved into a wider conversation about what math and writing classes should be in CS. A lot of anecdotes about "how it is done at my school". Also evolved into discussion about how we should be filling student's time. This led to debate about what the end goals of CS degrees are.
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Intro to programming course without reference to any languages</strong><br>
+    <span>2006/July</span><br>
+    Someone was interested in teaching a CS1 without a specific language - they were specifically looking for a textbook that could do so. There was pushback against this by a number of voices, suggesting that CS is best with a programming language.  The usual voices clamoring for Scheme. Argument given that we don't know whether programming is necessary to learn problem solving, same for math/physics to learn problem solving. Someone points out that there is no such thing as "general problem solving". Observations that many successful programmers weren't formally educated, but were just excited by programming and pushed it further.
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>What price publications</strong><br>
+    <span>2006/July</span><br>
+    A curious post complaining about the waste incurred by a conference with very few attendees. This led to other rants about problems in research: publish or perish, publishing a paper without the results that will be shown at the conference, and lack of good research questions in CS Ed. This led to further rants, and inevitably people defending small conferences, low attendance, etc as being better opportunities to connect and collaborate.
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Java Programming IDE</strong><br>
+    <span>2006/August</span><br>
+    Multi-week thread about Java programming IDEs. Started off from another discussion about how to pick Java IDEs. Various plugs are made for BlueJ, NetBeans, Eclipse, JGrasp. A multiinstitutional survey ended up being done, with Eclipse being most popular (35%), followed by None (25%), then BlueJ (22.5%) and JGrasp (12.5%). A major point raised was the dangers of using an IDE and how that limited students' knowledge of what Java is doing under the hood - someone argues that could be a good thing. Many diverging conversations: students writing lot's of code without compiling, whether we should make bug-finding open-ended or closed, whether exams should specific or general knowledge, etc. There's connections drawn to the idea of learning to spell even though there are spell checkers.
+    <ul>
+    
+        <li><pre><small>33690_ind0608C.txt: </small>Some of my students enjoy the comforts of their automatic compiler so much that they seem to be lost without it. When I ask them to write machine code they say things like, "That's what compilers are for."  I also got the following comment on an evaluation:     "On those questions where you ask us to hammer in nails     with our foreheads, it's not fair cause nail guns will do     that for us, so we never had to do it ourselves."  Kids these days...</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Coder Jobs: Painfully Stable</strong><br>
+    <span>2006/October</span><br>
+    An ACM article was posted about how coding jobs aren't going to see much growth going forward (hahaha). Discussion about the need for soft skills alongside programming skills. There was a bit of debate about whether programming is necessary to become a Computer Scientist (most people seemed to think Yes, but "how much" was a bigger question). Evolved into a broader discussion of teaching Software Engineering non-technical skills (project risk management, design, requirements analysis). Someone argues that the decline in jobs is because students need to be taught more about problem solving than programming or SE skills. A little diversion occurs to have some language wars (OO vs. imperative). Someone raises the question about whether we can look beyond just CS majors and more broadly at other discipline's CS.
+    <ul>
+    
+        <li><pre><small>https://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind0610D&L=SIGCSE-MEMBERS&X=O6363B4C4299C188585&Y=acbart%40udel.edu&P=3770: </small>The job market for computer programmers in the United States has stabilized over the past three years, after about a 25 percent loss in coder jobs from 2000 to 2003. However, no growth is expected for computer programming jobs, according to the Labor Department. Although the unemployment rate for coders was the same as the overall IT jobless rate of 2.2 percent during the third quarter, the computing programming workforce has 50,000 fewer people than in 2004. The emergence of offshoring, off-the-shelf applications, and other factors made coding the hardest hit IT occupation in the wake of the dot-com bust.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>I Object</strong><br>
+    <span>2006/November</span><br>
+    A long winding thread that started with the BlueJ lead posting an argument that the pushback against OO in favor of procedural programming was bad. The usual old person bringing up their view of how the field has changed over time. Obviously, there's a big language war here where everyone eventually agrees that multiple paradigms have to be taught, and that some instructors are better at teaching others early on, and it's biased by what you had when you were younger and then what you use now and what you like overall. Some discussion about ACM Programming Teams and their correlation with real-world outcomes.
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Carrots, Sticks, and Women?</strong><br>
+    <span>2007/November</span><br>
+    A forked thread from a discussion that involved whether or not games were a suitable context for CS1 based on whether they deter women. This thread started with criticism of the term "Carrots" in terms of bringing women into computing. Observations about the declining rates of women entering CS. Someone raises the idea that programming is becomming less important because of "automation and outsourcing"; there is serious pushback on this, and then refinement about what CS is (coding vs. programming). A lot of talk of "hero culture" among men in the field and how that negatively impacts perceptions from women. Someone also starts a language war about Java. People are starting to hint around at the idea of a pipeline that's failing earlier in the process than college. Someone suggests the issue is with how massive and intimidating the field has become.
+    <ul>
+    
+        <li><pre><small>https://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind0711B&L=SIGCSE-MEMBERS&X=OC7876C1B8C42C39F75&Y=acbart%40udel.edu&P=20308: </small>While it may not necessarily be games that deter women, it may be that the "culture" it brings...of male students talking about their "coding achievements" in this domain that turns women and other people away. Maria Klawe refers to it as a "culture of heroes" that we inherently promote in our discipline. Games are probably more susceptible to this than other approaches.  I find it quite disturbing that people on this list are not sensitive to the language of their discourse ("GETTING women into CS" and exploiting "carrot effects"). This probably reveals that there are deeper issues within our discipline than just the numbers of enrollments....</pre></li>
+    
+        <li><pre><small>https://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind0711C&L=SIGCSE-MEMBERS&X=OC7876C1B8C42C39F75&Y=acbart%40udel.edu&P=1151: </small>This effect is magnified by the early CS courses in many colleges, where programming (a relatively unimportant skill today, as much of it is automated or outsourced) is prized and communication and analysis and organization skills, which are more critical, are seen by the students as the real goals of a CS education.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>CS - Science or Engineering?</strong><br>
+    <span>2008/May</span><br>
+    A debate about whether CS is a science or engineering subject (or as the OP suggests, neither), and whether the public understands its nuance. This was a fork from a thread about the decline of calculus requirements in ABET accredition. Someone points out that this is not a new argument, that we have a new category of thing. Arguments about whether current CS course design silos topics or allows them to be more usefully organized. Someone raises the question about whether there are consistent themes across CS: they argue that "scalability" of problem solutions is one such theme.
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Need for a CS version of the Order of the Engineer?</strong><br>
+    <span>2009/March</span><br>
+    Conversation about whether there is a need for a CS award that can be granted at graduation ceremonies. Someone says this is a powerful, memorable ceremony; someone else says they've never heard of any of this. This turns into a second discussion about whether CS is an engineering discipline. This is dropped quickly in favor of discussion about whether this OtE is international, and its extent in other disciplines. Conversation is raised about the value of having CS graduates give a pledge to act "honorably and responsibly". Some people express interest in starting this, but it doesn't seem to go anywhere.
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Is Obtaining ABET Accreditation for a Doctoral Granting Institution's Undergraduate Program Worth the Effort?</strong><br>
+    <span>2009/March</span><br>
+    A conversation spawned by someone posting a fictional conversation (that they feel is based on reality) about why someone would never want to do ABET-accredition more than once. The OP collects a lot of responses about arguments for and against ABET accredittion. There's some harsh language in the summary calling out people they felt were not understanding the situation and getting rude. Apparently a lot of people wanted to have this conversation in a way that didn't leave a written record of who-said-what. A lot of descriptions in the threads about more pros and cons, with specific anecdotal examples.
+    <ul>
+    
+        <li><pre><small>20493_ind0903C.txt: </small>I must relay one recurrent theme that colors this discussion: CS departments that reside in engineering colleges seem more often to be "required" by their colleges to be accredited.  This appears to be rooted in the engineering culture of professional licensure.</pre></li>
+    
+        <li><pre><small>20493_ind0903C.txt: </small>Within 75 minutes of my posting six people replied, but the fascinating thing is that only one replied to the listserv.  Two specifically stated that they did not want to post to the listserv because (paraphrased) "they'd said some things they wouldn't want to be quoted."  Along that line, another respondent complimented me for "being willing to take the heat." Fascinating.  Well, I've been called a lot of things, but "shrinking violet" definitely isn't one of them. :)</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>looking for information on how Java-first schools handle the topic of pointers</strong><br>
+    <span>2009/October</span><br>
+    OP's department is considering switching CS1 from C++ to Java, and has colleagues concerned that pointers will no longer be taught. This started as a summary collection with OP needing to clarify some things. A lot of people started talking about specific curricula they suggest for Java, or their anecdotal experiences for teaching Java or Python or C++. Few posts about research or specific pedagogical strategies. Someone eventually asks for clarification between "pointers" and "references". Arguments are made for and against: using a single language over a CS degree, whether pointers need to come early or late, and some gatekeeping with the need for "suffering" with "memory management". Some more language wars ensue.
+    <ul>
+    
+        <li><pre><small>67612_ind0910B.txt: </small>It's about suffering.  Unless you've suffered through unpredictable crashes, variables changing their values behind your back, memory leaks, innocent-looking assignment statements changing the return stack so you can never return to the main program, etc you can't call yourself a Real Computer Scientist :-)</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>outrage: Albion College board axes CS, ignoring shared governance</strong><br>
+    <span>2010/May</span><br>
+    Some juicy drama when Albion college removes its CS major and denies a professor for reappointment - not a faculty decision but one made by its governing body. OP of the thread requests SIGCSE issue a statement decrying this event (which they do after an eventual board meeting). Some conversation about broader threats to CS Ed presented by the the removal, and similar threats (e.g., the elimination of the AP exam leading to less CS in high schools). This led to some conversation about the need for establishing more CS at the K-12 level, and discussion of what that should look like. Usual debate about what should be in a CS degree, whether CS is necessary for everyone, whether a CS degree is necessary at all. Conversation about shifting CS Ed to focus on being able to do more than "programming".
+    <ul>
+    
+        <li><pre><small>75223_ind1005D.txt: </small>Aha, finally the dirty little secret of CS in academia comes out!  Except for a sparse distribution of enlightened faculty, none of our colleagues have a clue of what CS is and regard an academic department in CS as offering the intellectual equivalent of a major in typewriters or some other TOOL.  And the perceived youth of the field doesn't help in this regard -- e.g., few know what Mathematics is either, but since it's been a bona fide field since antiquity, it's safe.  So it's not just a matter of explaining our field to the public, but even to our own colleagues in our own workplace!  And that may actually be a bit harder since these people are "sure" that they know that CS is illegitimate!</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>CSI Functions First</strong><br>
+    <span>2010/July</span><br>
+    Someone was asking about using a book on Functional Programming in CS for a  CS1 course. One of their examples was about how it taught recursion, which sparked a conversation about the difficulties, advantages, and disadvantages of teaching recursion. Some think it's easy and natural to teach, others think it's difficult and cumbersome and should be delayed. A lot of debates about what are good and bad examples of recursion - Hanoi is argued for (simple, not mathy) and against (useless, artificial). That sparked some debate about the ideas of natural and artificial (you can have physical towers of Hanoi, while regex pattern matching can be seen as artificial). Appeals are made to the "beauty" of functional programming. Someone asks that, "If it's hard to think of good examples of recursion problems, isn't recursion not an important problem?" Some suggestions for using it to teach trees. Arguments about whether recursion is hard for students. Someone points out that recursion can be dangerous in mission critical languages and is sometimes forbidden. Concerns that professional programmers don't learn and use recursion. Strong claims are made that teaching recursion is easier than teaching iteratively (without citing anything). Some extremely questionable data and statistics are bandied about (p values without N or other data) to suggest there is no difference between different languages for CS1, but acknowledging too many confounding factors to make any big conclusions. There's some suggestion that you should make sure to use naturally recursive data structures (e.g., filesystems) to help students understand recursion without even needing to teach it explicitly.
+    <ul>
+    
+        <li><pre><small>82089_ind1007B.txt: </small>The mindset I want students to have is that recursion is the most natural, expressive way to write a program.  I want my students to get out into the world and feel nothing but pity when they meet programmers who are afraid of recursion.</pre></li>
+    
+        <li><pre><small>107266_ind1007B.txt: </small>Not much has been said about that thought except that I should avoid showing students about how to eliminate tail recursion (I guess to protect them from having to think?)</pre></li>
+    
+        <li><pre><small>211139_ind1007B.txt: </small>No, the reason to teach recursion in CS1 isn't because it's beautiful and elegant.  The reason is that recursion, correctly taught, is so much simpler and easier for beginning programmers to understand and get right than loops.  It doesn't require extra syntax rules, it doesn't require mutation and temporal reasoning, and incidentally it's more powerful than loops (in the sense that any loop can be straightforwardly and naturally translated to recursion, but not vice versa).</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>CS Is it professional?</strong><br>
+    <span>2010/November</span><br>
+    OP posted about an advising meeting with a CS student who thought that a degree in CS wouldn't let them work in a "professional field". Clarification was sought as to what the student thought. Someone brought up the confusion around "CS" vs. "Computer Tech" (e.g., helping install stuff), which seems to be common for students and the general population in some areas. A later post by OP exposed that the student was unusual in a number of other ways, and didn't seem worth generalizing. Poster brings up the pain of being sought for basic computer technical help, and the questions it brings.  Someone suggests it's scary that students might have these thoughts, but someone else pushes back defending IT positions. Someone points out the issues with shops that consider programmers to be "gofers".
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>article in today's chronicle</strong><br>
+    <span>2010/November</span><br>
+    OP posted an article about how CS has value as an intellectual discipline. A concern is raised about how the author actually left CS and was able to do just fine, and may be a sending a weird message because of that; someone else defends the article saying that we should just take it as a positive note for us. A conversation ensues about the distinction between CS and programming (which carries on later on in the thread too), and arguing that programming is more valuable for a broader audience (CS less so). Questions are raised about whether transfer actually occurs from CS to other subjects (comparing to latin's use in HS). Also raised is an argument about what "professionals" are in CS and whether Computer Scientists exist outside of academia. Someone brings up that if the author used the term Computational Thinking in the article, it would probably have all been more agreeable (but that the article is still nice advertising for us). A new conversation occurs about the need to increase CS in HS particularly through programming. But mostly, just a lot of tangential arguing about what CS is (even rehashing the "CS is it professional" post from the previous week). Some amount of, "Students are declining" (note taking, problem solving, math skills).
+    <ul>
+    
+        <li><pre><small>265869_ind1011B.txt: </small>allow me to avoid the debate about computer programming vs computer science vs computer engineering vs computing theory</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>SIGCSE Robot Hoedown attracts Senator's attention</strong><br>
+    <span>2011/June</span><br>
+    An article is posted about a senator arguing that an NSF funded SIGCSE project (among others) involving robots for education was "wasteful". Some politically-oriented comments are made trashing the senator. Someone posts a follow-up article where they analyzed the projects and found they weren't bad (and that the senator's team apparently never reached out to the scientists involved). Everyone gets irritated with him but points out that it kind of doesn't matter. Some folks suggest tangible ways to PR back, to introspect on how we can strengthen such research to be less attackable, talking to the senator, how to find other sources of funding for such projects (e.g., corporate). Someone points out that this isn't about the robots, it's a political attack. The CRA Executive Director chimes in to point out that they're going on the offensive against the senator about this.
+    <ul>
+    
+        <li><pre><small>83719_ind1106C.txt: </small>The short answer is "we're on the case." The senator has heard the rebuttal from a number of different credible sources and there's been much press about the inappropriateness of the senator's critique. We've got meetings scheduled with the senator's staff planned for later in the summer (the staffer who wrote the report has actually been on paternity leave, though may be back now). I think we're in pretty good shape, even if much of what we're doing is behind the scenes.</pre></li>
+    
+        <li><pre><small>100006_ind1106C.txt: </small>Forgive me if I speak with the ignorance of an outsider, but I would have thought that in the US, as in countries I'm more familiar with, politics shares at least this with religion: most of the activity is for affirmation, not for conversion.  If this is the case, the good senator's message will hailed as eternal truth by those who already believe it, and either cried down or ignored by those who don't.  If I'm right, you don't really need to do anything except carry on as normal, knowing that so long as he's not in control you have little to worry about - and if he ever attains control you have a lot more to worry about than NSF funding.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Designing a CS classroom</strong><br>
+    <span>2011/October</span><br>
+    OP's department is moving to a new academic building, and has the opportunity to design their learning spaces for CS. Everone offers suggestions for layouts and things to focus on: no walls, more chairs than computers. Avoid laptops in favor of screens/keyboards. Someone warns against weird laptops that flip out of desks. Someone mentions the importance of plenty of power outlets (seconded). Desks with wheels (seconded). Desks that face 90 degrees from the front, careful cable layout. Natural light. Table height. Chalkboards over whiteboards, do not use whiteboard cleaner; this sparks a lot of opinions on whiteboards (use good markers, use eco friendly markers, use whiteboard paint, etc). Good wifi. Vertical sliding boards.
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>ACM Author-izer</strong><br>
+    <span>2011/November</span><br>
+    Post about a new ACM feature where authors can post free versions of their papers while still tracking download count. This sparks a conversation about why all ACM research is not free, and why this is a problem. Earnest questions are raised about WHY papers are not free, with various suggestions about how the economics should play out in practice. Discussion of how access gets limited at smaller schools. Someone with actual experience at ACM (who had the same thoughts back in the day) speaks about why the costs are the way that they are. Some arguments are raised in defense of ACM, but there is also a chorus demanding free papers. Suggestions are made to have the government fund the ACM, then instead a tech mogul is suggested, and then ACM members.
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Python better than Java for CS1?</strong><br>
+    <span>2012/March</span><br>
+    The language wars resume with "Python vs. Java for CS1"; OP wants documented evidence for the superiority of Python over Java in terms of student success or retention. First study posted suggests C++->Python made no difference (author chimes in to explain a bit more - it seems more nuanced than just that summary; the author goes on to suggest that Python helps but is not a silver bullet). OP expressed some bias that Python>Java becuase of simpler syntax, but somenoe argues that they don't think that's likely after teaching it for a while - syntax isn't the major barrier. Scala is suggested at some point (oh hey it's the exact same guy who posted that long rant last week; this is 7 years later). Someone raises the issue that establishing learning objectives and other course components needs to happen before the language is selected. Interesting historical point raised - a SIGCSE panel with thesis that language didn't matter but we were all teaching the same core topics led to the discovery that all the panelists WERE looking for different outcomes. Some folks actually start posting about their development of real, actual learning outcomes (they even use the word). More slapfights occur between various language enthusiasts (e.g., scheme, static-type-lovers). OP explains they do have outcomes and both Python and Java could satisfy them; there is some tension here with this back-and-forth. Poster points out that they all have different student populations. One poster explains that their college has locally defined outcomes for a common set of CS1 courses. Someone expresses a desire to find out the range of CS1 outcomes. Some criticism of one poster suggesting that students just need to be able to write programs afterwards (they should be able to solve CS problems). Argument again raised that language doesn't matter without the student/outcome context.  Best part for me is the future CS4All lead posting about how great it would be to move CS0 stuff into high schools to make it easier to teach incoming students.
+    <ul>
+    
+        <li><pre><small>89063_ind1203A.txt: </small>Can anyone point to documented evidence that teaching Python, instead of Java, in CS1 produces better results, in terms of student success and/or in terms of retention.</pre></li>
+    
+        <li><pre><small>114871_ind1203A.txt: </small>Here is what I agree with, but I'll state it differently: it is about problem solving. We are teaching problem solving with a computer.  The language is the tool; the hard part is the problem solving.   From my experience (CS1 Python starting in 2007) is that Python gets in the way less, but still the hard part is problem solving.  That is, it isn't a magic bullet.</pre></li>
+    
+        <li><pre><small>823844_ind1203A.txt: </small>Owen's thesis was that we spent too much time fighting over languages (although then it wasn't Java vs. Python), and that if we instead looked at what our objectives were, we'd find out that we were actually all trying to achieve largely the same ones, at least over the span of the full first year, if not the first semester.  It didn't really work out that way.  We all presented our objectives, and there were some notable differences among them.  So it turns out our choices of different languages may have reflected these different objectives rather than only being a consequence of other factors as Owen had hypothesized.</pre></li>
+    
+        <li><pre><small>1109118_ind1203A.txt: </small>Just as calculus has decided what an appropriate pre-calculus course should contain, perhaps we could mitigate a lot of these "first" language discussions with some foundational principles in a general course at the HS level.  Again remember - NOT a college CS1 course!  Instead a general one that could contain principles that could be taught to HS teachers that would need to teach it.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Students who get help from online forums</strong><br>
+    <span>2012/April</span><br>
+    OP posts asking about what to do when students post for help in online forums, since it's a realistic practice that can pedagogically harm students (e.g., they get bad advice). Someone suggests just telling students that seeking advice is a bad idea (hahaha I'm sure that'll stop them). Observation that academic work is not real world, and it's okay to establish artificial constraints to get them to learn (not just to make it work). Someone suggests most students to be on far sides of the "collaboration"/"work alone" line. Someone says (and another agrees) it is bad to focus on plagarism worries, and that some communities make "remixing" a core feature, and comparisons are drawn to the writing process. This is pushed back upon, making a metaphor that plagarising an essay is also bad. Someone points out the reality that students are not going to study code they find online carefully, but just fuss it into their program. Conversation about copyright and code and legality issues. Interesting anecdote about a student (shanghaied into the major by their father) who's father submitted a project for them. Various other stories are given about students getting others to write their code for them (and observations about how easy it is). One poster suggests a strategy of mitigating assignment grades (while encouraging collaboration) in favor of exam grades. Someone actually brings up tenents of assessment/outcome alignment (!) and this is seconded. Someone suggests having a lab assignment the day that a project is due where they have to code a  twist to their submission - cheaters don't understand their own code.
+    <ul>
+    
+        <li><pre><small>31602_ind1204C.txt: </small>Some years ago at the SIGCSE Symposium, I heard someone explain it in terms of what (s)he called the "Gilligan's Island" rule: you can get as much help as you want, as long as you watch a full episode of "Gilligan's Island" afterwards.  (I suppose you could substitute "Jersey Shore" if needed.) The idea is that you can only receive information that stays in your long-term memory, rather than short-term "cut-and-paste" help.</pre></li>
+    
+        <li><pre><small>105211_ind1204C.txt: </small>Suppose that ("learning objectives" == "skills to be learned") and ("grading" == "assessing learning objectives"), then does it follow that "learn the skills" == "pass the course"?  Of course this leaves the big gap of connecting learning objectives to assessment through materials, activities and assignments. But this is where the real discussion of course design can begin.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Recursion Question</strong><br>
+    <span>2012/April</span><br>
+    Someone posts an assignment they have that is meant to help practice recursion. A functional programming advocate posts about their perspective in teaching recursion through a structural data focus. It is raised that you need to teach recursion in a way that cannot be replicated with iteration: drawing fractal trees, towers of Hanoi, counting some amounts of money, listing subsets of a large set. Various further suggestions are made. Some paper suggestions are made on approaches. There's some discussion about whether it's appropriate to start with linear structures (relatable, but equally solveable with iteration) vs. structural recursion (more complex, but requires recursion). Someone raises a complaint about how colleagues teach recursion (claiming they intentionally downplay it as less useful than recursion). Arguments are made for presenting recursion early, and more trash talking of those who don't teach recursion early or often enough. Some criticism of those who fail to motivate recursion early on. Someone points out that we learn when we use something consistently - if you teach recursion as a one-off you probably won't be seeing much improvement on it.
+    <ul>
+    
+        <li><pre><small>587_ind1204D.txt: </small>Why not start with an interesting problem to solve?   For example, sorting. Divide the problem into "sort left half" and "sort right half".   Keep repeating. Students can experiment with that and see how it works.   Then you can express it as Quicksort and it still works.   It beats all the other sorting algorithms.  This is practical.   Show that recursion is actually more efficient!   Fibonacci etc are toy problems.</pre></li>
+    
+        <li><pre><small>74241_ind1204D.txt: </small>In other words, recursion is a confusing way to solve problems you don't care about, extremely slowly.</pre></li>
+    
+        <li><pre><small>206988_ind1204D.txt: </small>But I think two issues have come to be conflated in this discussion.  "Killer app" is one, and the other is not-equivalent-to-an-iteration.  So I want to repeat what I said originally, which is that, in my experience, it's really hard to keep students from developing the "go back" mental model of recursion, even after warning them that if they hear themselves think the words "go back" they should ask for help.  And so I think it's really worthwhile starting with an example that clearly torpedos the "go back" model, and instead teach them the Little People model of recursion. Drawing a fractal is a (killer) example; towers of Hanoi is a (non-killer but not so terribly boring imho) example.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Resell your books?</strong><br>
+    <span>2012/April</span><br>
+    Question is raised about whether it is ethical to sell back books that were given to profs for free. Someone suggests yes, this is unethical from the perspective that it might not be your's to sell (if it is on loan from the publisher). Some agreement from others about this, and that it matters how you got the book. Suggestion to donate books to charities. Complaints are raised about textbooks (price, new editions without substantitive changes, claims that it is a "racket"). Someone argues that it's more ethical to sell back free books since it could drive the price down. Arguments are brought up for and against physical textbooks (claim that digital textbooks are not a perfect solution). Arguments about why textbooks are unfortunate for students and should not be contributed to, and suggestions on circumventing pricing. One person does a scientific analysis of how much profit textbook companies lose in this, and how much this practice drives up book prices. One author makes an argument on behalf of publishers, suggesting that this is more of a service model than sell a physical book.
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>computer science majors study less, on average, than elementary education majors�</strong><br>
+    <span>2021/May</span><br>
+    OP posts a chart suggesting from an article that suggests CS majors study less than many other majors. Various hypotheses are put forth (sampling bias, the data is about studying vs. other more active/useful activities, distribution of students, whether they included failing students, ). Someone puts forth some estimates based on data they collected to suggest that students are spending much more time than given in the article (20/hours week outside, 12-15 inside). Some suspicion about the numbers, but at least one person believes them: they claim that students aren't willing to spend as much time as they used to. Someone questions the fundamental assumption that more time spent is better; someone else argues that it matters for advising and that spending time learning is probably better than spending less time (someone offers anecdotal evidence of this later on; someone else brings up actual ed psych on this). Someone brings up New York state standards on how much time courses should expect based on credit hour load. Concludes with someone bringing up that it's more important to just look at learning outcomes than worry too much about time spent.
+    <ul>
+    
+        <li><pre><small>108615_ind1205D.txt: </small>In pre-college educational research one, if not the, major finding is that "time on task" enhances learning.  Much attention has been paid trying to determine how to best/better keep students attending to the instruction rather than passing notes, shooting spit wads, napping, ...  My recollection is that much of the research related to class-time but it certainly is logical that it would extend to outside of class time.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Hand-writing code on exams</strong><br>
+    <span>2013/May</span><br>
+    OP had students complaining about hand writing code on an exam, and wanted to know if the practice was outdated in light of modern IDE's pervasiveness. Someone agrees and raises arguments in favor of non-paper-based exams. Someone else points out that whiteboard interviews require this skill. Someone suggests Pseudo-code could be a good solution for this. Arguments are raised against all the previous arguments seen. Someone describes how they have both paper and computer exams and have different expectations for both. Recommendation to make this a BOF at SIGCSE. Someone else raises arguments against writing out code, pointing out various arguments such as the toll on the instructor. Someone cites some research about instructor experiences with using computerized exams. Point is raised that cheating is easier. Point is also raised that whiteboard interviewing is a different skill than writing code on an exam. Folks on both sides of the issue share their practice and experiences. Point is raised that students might over-focus on syntax issues when they have to grapple with a real compiler. Some discussion is raised about interview questions, pointing out bad "puzzle" type questions.
+    <ul>
+    
+        <li><pre><small>http://frankmccown.blogspot.com/2013/05/hand-writing-code-on-exams.html: </small>Full blog post summarizing</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Summer Reading</strong><br>
+    <span>2014/May</span><br>
+    OP was asked by a student to recommend books to read over the summer; OP wants more than just technical books, but other things that undergrad CS students should read. Various suggestions on titles ("Mythical Man Month", "The Dream Machine", "Weaving the Web"). Some discussion about the gender bias in the title of Mythical Man Month. This actually sparked further discussion about the decline of women in computing - discussion of "why" and "what can be done" (someone posts a link to "Recoding Gender"). It's actually about half the thread, discussing this decline. It kind of feels like one regular poster felt they had to defend their support of women.
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Getting college credit from MOOCs</strong><br>
+    <span>2014/May</span><br>
+    OP is looking for accreddited online courses for a senior CS major looking to take a summer course; their registrar demands an accreddited university. Someone suggests working around it by just running it as an independent study through the course; variations on this idea are offered. Someone cautions that some MOOCs (Coursera) might forbid usage of their materials in credit-bearing courses. Some suggestions are made about specific universities that offer such online courses (SMU, UMUC). Someone raises concerns about MOOCs (quality, how overpopulated they are) and how Independent Studies can be a time sink for professors. Two others support the quality issue among MOOCs that they have tried. Someone describes some range of experience with a number of MOOCs, suggesting that they can be good or bad and it varies. Someone argues in support of Flipped Classrooms anecdotally (and various others bring up advtanges of video recorded lessons, while others bemoan their additional work). Point is raised by a few folks that MOOCs are a path to making education more efficient and accessible (arguing this is necessary with the growing costs of teaching), but that they need to increase in quality. Someone else argues that maybe education is time and resource intensive and that is okay, and that MOOCs can't do this (but there is pushback on the idea on that by at least one person). Someone points out that many of the mailing list members don't have degrees in teaching, and asks for paper recommendations about MOOCs - someone actually responds and details what makes some MOOCs bad.
+    <ul>
+    
+        <li><pre><small>246550_ind1405B.txt: </small>2000-ish: the dot-com boom and residual demand from Y2K conversion efforts cause huge enrollment spikes in CS programs across the US (maybe worldwide?).   All the buzz in the hallways at the SIGCSE symposia, and in plenty of seminars, is "How are we going to educate all these students?  Where are all the faculty going to come from?".   The overall response of the CS Education community was ... well, not much of anything, which ended up being the right thing to do, because all that interest from the dot-com boom disappeared a few years later.  2005-ish: suddenly, the CS industry has discovered outsourcing/offshoring, and the media is reporting on it as "the death of technology in the US". US enrollments start dropping, as high school students keep hearing that all the CS jobs are moving to India.   At the SIGCSE symposia, panel discussions are being held on what to do about the threat of offshoring, and how to convince students to take CS --- because if we don't, we CS educators won't have jobs.   The overall response of the CS Education community was ... well, not much of anything, which ended up being the right thing to do, because industry started figuring out that outsourcing/offshoring created costly problems of its own, and many of those positions started coming back to the US.  2012: the MOOC happens, largely because of the splashy appearance of a couple of compelling speakers who, unsurprisingly, also have major financial stakes in companies which provide MOOCs and/or MOOC architectures.   Lots of discussions about MOOCs are happening at the SIGCSE symposia.   Before the CS Education community has a chance to decide on its response, though ... suddenly, a number of the MOOC providers start pulling way back in their claims, as they discover that the first big public MOOCs have had horrible results.  2013-4: the year of Code.org and the Hour of Code.   Suddenly, many high school students are being exposed to CS in ways they'd never seen before. Does that mean that we'll see enrollment gains measured in a few percentage points or whole number multipliers?   Most of the people predicting a result are (literally) selling something.   Anyone who knows which of these predictions are accurate should get out of our business and head for Las Vegas.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>systems that detect plagiarism in programming assignments</strong><br>
+    <span>2014/October</span><br>
+    OP asking about automated systems for cheat detection (suggestions, limitations, etc). First result is, of course, MOSS. Some other suggestions are made (etector, anticutnpaste, jplag). Someone suggests the premise of the question is flawed since collaboration and code-seeking can be very positive, and in-class tests are better for seprating out cheaters. Someone else pushes back against this since exams are less authentic assessments than coding projects. There is push back on this push back, suggesting that students should document their sources of help. Someone shares their syllabus text, allowing collaboration that limits actual code sharing (with strict penalties and a low bar of proof). Arguments are made for and against allowing collaboration. Someone describe a more technologically driven system for giving students unique problems that makes it harder to share solutions. Someone points out the issue of using homework as both learning and assessment activities. Observation by OP that not many schools are using autoplagarism detectors. Suggsetion to provide precise syllabus terminology about cheating and collaboration.
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Computer Engineering Barbie</strong><br>
+    <span>2014/November</span><br>
+    Somewhat funny thread about the Computer Engineer Barbie scandal, where a children's book about Barbie was published - with Barbie playing a pretty lousy quasi-programmer. Calls are made to offer terrible reviews on the book to signal the community's displeasure. Someone suggests making a remixable version of the book under fair use policy, and that actually does happen - leading to many revised versions of the book. Someone shares a great remix that has a lot of positivity to it and leverages a lot of great STEM Ed ideals - some folks make further suggestions on the remix. Some folks use this opportunity to raise awareness for various events (she++), causes, and books. Some of the older members offer their historical perspectives on gender bias in toys. Eventually, the book got taken down and Mattell offered an apology. One person very strongly argues that more action needs to be taken, and tries to argue against the ethics of remixing - someone else points out that the remix creator is a literal expert in copyright law and that the remix is super legal.
+    <ul>
+    
+        <li><pre><small>227398_ind1411C.txt: </small>Amazing that this is still happening in 2013!!! not like 10 or 20 years ago.</pre></li>
+    
+        <li><pre><small>https://computer-engineer-barbie.herokuapp.com/: </small>Online app for making more remixes</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>moving CS1/2 to Java (or away from Java)</strong><br>
+    <span>2014/December</span><br>
+    OP's department is considering moving from CS1/2 in C to Java, and wanted to know if anyone had transitioned to or from Java recently. That means it's time for Yet Another Language War! First up is a plug for Python from the usual, with a positive anecdotal experience. The next is a pluge for Scala from the usual, with a positive anecdotal experience. Then someone who switched from C++ to Java and was happy with it (favoring strongly typed languages). Someone posts their essay about the pointlessness of language wars. Another plug for Python, once again with a link to their textbook. Someone raises the question of "WHY" their department wants to move - what question are they trying to address? Is it not enough interest from students, not enough perceptions of authenticity, wanting to cover specific topics? Someone chimes in asking for help with their department's new plan to switch to Python:CS1 with Java:CS2-3. OP comes back and articulates the reasons why the department wants to move to Java (many transfer students with prior Java experience, and industry demand) - but their concern is that they'll be pushing off too much fun stuff and "big beautiful design". Someone raises the point that languages are getting much more complex, and part of designing a CS1 is choosing what to leave out. Someone comes in with more anecdotal positive experience of switching to Python, listing some plusses and minuses of the switch (e.g., it's great that Python allows experiments with the REPL, but most students don't try it outside required labs - another person confirms this). Minor digression arguing about whether While loops are suitable as the only looping construct in CS1. Someone comes out suggesting the problem is more about the need for contextualization in the courses.
+    <ul>
+    
+        <li><pre><small>268141_ind1412A.txt: </small>In summary, (1) figure out what concepts you want to teach, (2) choose whatever language makes pragmatic sense for your goals, and (3) invest in the tooling to make it work for you. Of those three, the least important part is (2), provided you get (1) and (3) right.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>fun -> how do you know if you are an old CS prof?</strong><br>
+    <span>2016/January</span><br>
+    This is literally just a thread of CS professors making jokes. They're really just observations about how computing used to be, along with a healthy dose of nostalgia.
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Faculty who are poor teachers - why do we tolerate them?</strong><br>
+    <span>2016/February</span><br>
+    OP posts the question, "why do we tolerate bad teachers", listing some anecdotal examples of bad teachers (e.g., ones that can't speak english, reading from textbooks for lecture, or overly abstract and unintelligible). First question is about establishing "college" vs. "university" and the kinds of institutions being covered (big research school vs. small liberal arts college). Someone raises that it'll be difficult to find effective ways to separate the wheat from the chaffe (student evals? peer evals? student complaints?). Further, what do you do next (denying tenure, dismiss for cause, hide them, minimize course load, change them)? The answer from many seem to be pragmatics focused on "it brings in the research $$". Someone talks about why student evaluations are useless beyond measures of student satisfaction, along with peer evaluations. A plug is made for teaching centers at some universities, as aids that can help promote good teaching. Someone suggests that "good students will learn despite everything that may get in their way", which is heavily pushed back on: One poster gives an impassioned plea to consider the implications of bad pedagogy on students who are already disadvantaged. This led to some affirmations that good pedagogy is not "coddling", but instead is just good pedagogy. Someone points out that, as consumers, parents and students need to make sure they are getting what they want (high quality teaching, university name brand recognition). There's a lot of heated back-and-forth (people calling each other out by name), with some accusing each other of not caring for their students who might need extra assistance (or even a usual amount of assistance), and others saying its not fair and that some students need to learn to learn and try. There were some apologies before all was said and done. Some of the conversations touch on ideas of the geek gene hypothesis and argue against "innate abilities". Observation is made that bad teachers exist outside R1s. Someone argues that grading more assignments may be directly beneficial to learning outcomes , but it's still "coddling" for instructors to grade more assingments. But that argument is smacked down fairly hard as being inconsistent with core theories of learning based on feedback. One faculty describes (and links to some blog posts about) efforts to motivate colleagues to teach better, including using a sit-down test on teaching skills and changing promotion and tenure process to require more active learning.
+    <ul>
+    
+        <li><pre><small>9251_ind1602A.txt: </small>Summary: Have we become so accustomed to tolerating poor teachers that we simply look the other way?  Is this doing our students a favor?</pre></li>
+    
+        <li><pre><small>98393_ind1602A.txt: </small>OK, so how may education courses does one have to take to be eligible to be hired as a college or university teacher?  In my experience, the answer is invariably none.  I suggest that 99.9% of college and university "teachers" -- quotes added because we're not really teachers, we're professors, which IMHO is a completely different animal -- have never had any formal training at all in how to teach.  They simply teach the way they were taught or (as Irving Berlin wrote for "Annie Get Your Gun") they're "doin' a-whatcha comes natcherly.</pre></li>
+    
+        <li><pre><small>105989_ind1602A.txt: </small>I think I would be on firm ground paraphrasing one analyst who said, As measures of student satisfaction, student evaluations are strongly valid. Using them to draw any other conclusion is fraught with risks.</pre></li>
+    
+        <li><pre><small>http://ccliconference.org/files/2013/11/Measuring-STEM-Teaching-Practices.pdf: </small>Report on "Describing and Measuring Undergraduate STEM Teaching Practices</pre></li>
+    
+        <li><pre><small>184740_ind1602A.txt: </small>I am shocked that in 2016 good pedagogy could still be referred to as 'hand holding', let alone be relegated to "poor" students.</pre></li>
+    
+        <li><pre><small>289027_ind1602A.txt: </small>Very soon this may be everywhere. As seen by the number of job postings, finding qualified people is bound to get harder. Departments will be feeling pressure to fill all their classes with teachers, either by lowering hiring standards or hiring more "temporaries" that they find they cannot afford to let go.</pre></li>
+    
+        <li><pre><small>436850_ind1602A.txt: </small>Meanwhile, the students who actually need teachers, because of their different innate abilities or their different positions of (lack of) cultural privilege, can go to the "lesser" schools, where "lesser" faculty can engage in "artisanal education" practices that might actually meet their needs.  They'll emerge from the academy just as capable of contributing to society, but will be looked down upon as someone who "couldn't get into the R1 school".  When did we get to the point as a culture that mastering a skill without assistance makes one more worthy of praise than mastering that same skill under the guidance of others?</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Value of Unit Testing</strong><br>
+    <span>2017/January</span><br>
+    OP asked colleagues how they help students understand the value of unit testing. Various strategies are proposed: bringing in recent graduates (to give experience with it in industry and suggest its marketability), demonstrating how they can use unit testing to debug their programs, integrating unit testing early enough that it just seems natural, providing unit tests for assignments that can help them solve the assignment faster, having a real experience (e.g., more complex software project that requires unit testing), providing case studies, demonstrating their value as regression tests to guard against merge issues and changing code (several others make similar points), making sure they have a build chain where it is more convenient to add/run tests than to test by hand, arguing that people care and need provably correct software, gamifying the unit testing process (a link to a game is provided). The argument is made that the direct approach of telling students to value it doesn't work. One researcher brings up a quasi-experimental study they ran that indicated students who spent time testing actually learned less - raising the question of whether unit testing is suitable for CS1 because of its cognitive load. A request is made for published case studies. Two folks make an argument (without evidence) is made that Tests MUST be written before the code is written, or they have little value (someone else pushes back against this saying that timing is not critical to their value, and another person agrees citing "exploratory programming"). Someone brings up the argument that automatic feedback tools (e.g., webcat) inhibit students' ability to develop their own test cases and should be avoided in CS1. Someone points out to OP that one student complaining is not necessarily something they should generalize from. Someone else argues the need for testing in every lab assignment (and brings up the idea that if unit testing is to be assessed, it needs to be explicitly mentioned to students).
+    <ul>
+    
+        <li><pre><small>114881_ind1701A.txt: </small>I'm not sure how much weight I'd give the comments of one students.  I've seen many times that one student doesn't "get it", but the rest do.  (And, when a student doesn't get it, they often claim "no one understands/is convinced of this either".)</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>workflow for easilly adding feedback to code while grading</strong><br>
+    <span>2017/February</span><br>
+    OP wants suggestions on how to better give detailed feedback on student code (currently using the paper and pencil model). Someone suggests GradeScope based on their positive experience with it (and a GradeScope dev chimes in with more information); another person suggests their own Python-based system (cites paper); yet another person shares their LaTeX-driven tool; someone else suggests some basic unix commands to do this; someone suggests Canvas or another LMS; someone sugests a workflow of code->html->pdf; someone shares their own Ruby web-based system (provides link); someone talks about how this can be done effectively with Git or BitBucket. Someone else suggests individual interviews with students (citing their SIGCSE paper). Someone else has students share their source code with each other and review using several different criteria. OP comes back in halfway through to (nicely) ask people to suggest ways of marking up code, not autograders. Someone suggests having students submit their code as a PDF from the start. There's a tangent here talking about using Git and getting students up-to-speed on it, with one person saying its hard and another pushing back on that. Another person agrees that getting Git into their course isn't hard, and two people suggest GitKraken as a way to help scaffold the process.
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Can we talk about documenting our code?</strong><br>
+    <span>2017/February</span><br>
+    OP asks what everyone's expectations and requirements are for requiring students to comment in their courses (includes information about their background and the specific policy they use in the course: every module must be at least documented and failure to do so is an automatic zero). There's some agreement about the policy and others describe their own minor variations on the policy (having separate grades for correctness and quality, spend plenty of lecture time on the issue, provide high quality examples). One person suggests having students read source code with documentation can help motivate this. One person suggests it is necessary to release the code quality rubric up front (citing anecdotal experience of seeing students' code quality improve with this practice). Someone argues that it is bad "real-world" practice to have students include author and assignment tags in code, since those are not industry practice; this person also points out that a lot of documentation can be fixed with better variable names and better code organization (some agreement here, but someone points out that this is a somewhat advanced skill). Someone brings up having students write a design strategy before hand. Someone introduces a rule of thumb - think about what you need to know about this code 6 months from now. Someone asks how they can get students writing comments before they write the code; someone responds that they just deny help until students write documentation. The thread ends with a complaint about how most programmers don't write literate code
+    <ul>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>functional programming in intro CS course</strong><br>
+    <span>2018/February</span><br>
+    The question is raised: is it better to start with recursion before loops. Usual person makes the usual argument for Scala based on their anecdotal experience. The Scheme folks launch into their arguments and experiences. Someone argues that for non-majors, recursion will be less common and should be saved for later. Some references to a post by Guzdial about some old research on teaching recursion early vs. later; someone makes a call to do more modern research to see if these claims are still true. Someone makes an appeal to teaching the "underlying model" while they are teaching the basics of programming. Someone else shares their anecdotal experience of almost dropping out of CS because they had a functional-first introduction. Someone brings up a CS Educationa Stack Exchange post about how to teach recursion. Someone points to Harvey Mudd's curriculum. Someone suggests it really matters what your local context and goals are. There's a lot of back and forth about whether iteration or recursion is more natural, with people framing and reframing arguments based no anecdotal experience and personal beliefs about the difficulty of code constructs. Someone makes the argument that teaching recursion teaches "critical thinking and problem solving". Someone suggests that success in learning recursion is tied to having lots of prior math experience. There is a request to have a SIGCSE panel about this.
+    <ul>
+    
+        <li><pre><small>590996_ind1802C.txt: </small>My 21st century short response is: Do what is relevant and most appropriate for your institution, and your personal teaching goals, your student population, and your longitudinal curriculum.</pre></li>
+    
+        <li><pre><small>615452_ind1802C.txt: </small>If you simply what to 'teach' programming, then loops first.  However, if you want students to learn critical thinking and problem solving, perhaps in conjunction with maths foundations of computer science, then definitely functional.  Numerous other educations and my self (after 35+ years of experience) can, I believe, support this claim.</pre></li>
+    
+    </ul>
+</div>
+
+<div>
+    <strong>Non-PL-Based CS Placement Exams</strong><br>
+    <span>2019/January</span><br>
+    OP wants to know about the use of administering exams early on to identify students who won't cut it. There are some suggestions for specific aptitude tests. But there is also push back on the idea of aptitude due to the research on its damaging effects; someone else comes back and tries to argue it isn't, leading to more back and forth. Various references to literature and research are made (including a paper by Patitsas about instructor biases and misconceptions about grade distributions), mostly on the side against the concept of sorting students based on Aptitude. There is some evolution to the discussion about offering multiple CS1s that are faster and slower, without much debate about whether that is good or bad. The bulk of the thread is about the debate of "aptitude" and geek gene stuff.
+    <ul>
+    
+    </ul>
+</div>
+
+</body>
+</html>
