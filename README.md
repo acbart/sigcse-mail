@@ -9,7 +9,7 @@ Hi! I'm glad you're interested in my analysis. This is a little cluttered, but I
 
 If you check out [sigcse-mail_main-analysis.ipynb](sigcse-mail_main-analysis.ipynb) then you can see the fruits of my labor as a Jupyter Notebook. Note that without obtaining a copy of `data/sigcse-emails.db` from [me](#Getting the Dataset) or regenerating it yourself, you won't be able to run this notebook.
 
-For my qualitative analysis, check out [results/LongThreadAnalysis.xlsx](results/LongThreadAnalysis.xlsx). The current organization is basically a series of rows where:
+For my qualitative analysis, check out [results/LongThreadAnalysis.xlsx](results/LongThreadAnalysis.xlsx) or preview the [HTML version](http://htmlpreview.github.io/?https://github.com/acbart/sigcse-mail/blob/master/results/long_thread_analysis.html). The current organization is basically a series of rows where:
 
 * Thread title
 * Year/month
