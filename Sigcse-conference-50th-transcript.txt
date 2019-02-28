@@ -1,0 +1,78 @@
+The title of this talk is "What Have We Talked About" and it's meant to be a summary of the SIGCSE-Members listserv. 
+Graciously, the panel talk about the history of CS Ed allowed us to integrate with them so that I would only have to talk for 10 minutes instead of 22.
+
+We're going to begin with a question for you folks, and it's probably one that you anticipated.
+Most of you have been in CS Ed for more than a few years. What do you think we've talked about?
+Please answer on your smart devices.
+
+
+I'm actually one of the least qualified people to answer this question natively, since I only started in CS Education 7 years ago when I went to my first SIGCSE.
+But I figured a concrete way to find out was to download the SIGCSE-Members listserv and then crunch some numbers.
+This started as more of "can I actually do this?" than a real analysis, but it's shifted into a full-on research effort.
+After I scraped and cleaned all the listserv emails, I did a bunch of quantitative analysis, and that's the bulk of the paper we originally submitted.
+Then, Reviewer #3 asked us to do a qualitative analysis too, so I spent a dozen hours last month reading all our old emails.
+You're welcome, Reviewer #3.
+Everything I present today is backed up by this GitHub repository that you can peruse at your leisure.
+Unfortunately, I never really asked if I could download the listserv, and I've been told I shouldn't just share the original dataset at large – but if you want it, get in touch with me individually. You need to be an ACM member.
+
+
+Most of the quantitative analysis yielded results that were more or less in line with what you might expect.
+"More job ads come out in October than in July" and "We post more right before SIGCSE than during winter and summer break"
+I'm not going to talk about any of my quantitative findings in-depth, because you can see those in the paper or on the GitHub website.
+Instead, I'm going to focus on the qualitative analysis, which I think better answers the session's original question.
+
+This graph shows the trend in the number of posts over time from the mailing list, including a 6-month rolling average and a trendline.
+At the bottom, the black Xs represent "Big Threads" that I analyzed manually, more on those in a minute.
+I've also annotated a few important events in the history of CS to provide a frame of reference.
+I don't want to try and draw any causal links here, but you can see that we have been fluctuating a lot over the years.
+However, the trend line is weakly positive. 
+You can see my analysis only goes back to 1996, but that's just when the first posts were archived – I haven't been able to get any more of the history.
+
+
+My qualitative analysis was to take all threads with 20 or more posts in a single week, resulting in 46 total threads and 1300 posts, and read through them while writing a summary and taking notes of good quotes.
+I am not a qualitative researcher, but I studied a little in graduate school.
+Therefore, you should take all of the following with a grain of salt.
+Anyway, in my analysis, I identified ten concrete themes, and then Cliff and I narrowed it down to a few interesting ones.
+
+
+First, you will be unsurprised that we spent a lot of time over the years arguing about what language to use in early CS courses.
+This starts all the way back early in the listserv with this quote on the left (read first quote).
+One of the more interesting trends was how the earlier posts were about "should we move to Java" while later ones were asking about moving away.
+I really like this one… (read second quote) it's got an almost superstitious tone.
+Either way, you see posts for and against Java throughout the history.
+I don’t think it's a clear line going up and then going down, but something indisputable is that we talk about Java a lot.
+
+
+Of course, we talk about other languages to.
+Particularly in the 2004-2006 period, there have been many threads arguing for and against various languages.
+But from what I saw, when it came to these languages was usually the same people making the same arguments every few years.
+I think I've now memorized the biggest advocates for these three languages from these threads, because of how many times they kept showing up.
+Perhaps the exception is Python's community, which stopped being quite so niche after a while.
+The quotes up here are taken from some of the various arguments, and you see they can get a little heated – people have opinions on this.
+Language wars often shifted into skirmishes on whether we should teach students about how to implement data structures or just how to use them, or whether pointers were necessary, or about recursion, and other arguments about specific language topics.
+I'm not sure we ever really decide the winners, since we keep cycling back to these conversations.
+
+
+This next theme is a bit more tonal, but shows up in the topics we choose to talk about.
+There's a sense of cycles in the enrollments of CS, as demonstrated by graphs of graduation rates and industry hiring.
+But we sometimes get a sense of gloom and doom, with worries about offshoring.
+But I think we often then come back around and cheer ourselves up. 
+A little harder to capture is that before we perked up, it felt like there was a lot of posts arguing about how important CS was as an academic subject rather than a money-making one.
+Honestly, it felt a little defensive, as if we had something to prove to everyone.
+Regardless, I don't see as much Gloom and Doom anymore – although someone did ask last month if we were on a bad path.
+
+
+Invariably, discussions about what language to teach was followed by arguments about what Computer Science is.
+Amusing to me is that we do answer the question a few times on the listserv, and some people even publish papers about the results.
+But we keep asking this question, even just in the past year.
+When that thread came up again, I like this quote that shut it down: (Read second quote).
+In other words: "it depends."
+
+
+Ultimately, my conclusion is that a lot of our biggest discussions on the listserv are just arguing about the content of CS, rather than how to teach it or assess it.
+We're still finding ourselves, even after all these years.
+I think it's time for us to move on from these same topics and make real progress as a field on new ideas and problems.
+The listserv is a place for us to do just that. 
+Personally, I do think I saw more interesting conversations in the later posts backed up with real evidence and citations, but we'll have to see how things stack up retrospectively in the next 50 years.
+Anyway, if you want to go through my analyses more closely, or maybe even try it yourself, please feel free to check out the GitHub.
+Otherwise, thank you very much for listening and have a great SIGCSE.
